@@ -1,2 +1,4 @@
 # KickChat
 KickChat chrome extension for kick.com that adds custom emotes to any channel
+
+Fully functional on upload, pending review for store listing. Small list of global emotes to be expanded. Option to add emotes that are sync in gdrive hidden app folders. Can remove emotes. Must be streamer of the channel to add emotes with "^AddEmote Name Url" or "^RemoveEmote Name" or "^ShareEmotes" or "^ShareEmotes Name". You can use commands in your own channel on or offline and take those to any other channel. Only those that have also added the emote will see your emote and versions can be different so using the share command is advised. Planning to add a date added field and an remove all from date in case a streamer abuses the share commands. The emoji mart has been modified to show all emotes as clickable and will add the emote to chat input for you. Hover to see the name to use manually. Planning to add tab to autocomplete at some point.
