@@ -1,0 +1,44 @@
+{
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "description": "KickChat is a plugin for extending the functionality of the KickChat chatroom.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "manifest_version": 3,
+  "name": "KickChat",
+  "host_permissions": [
+    "*://kick.com/*"
+  ],
+  "short_name": "KChat",
+  "version": "1.24",
+  "web_accessible_resources": [
+    {
+      "resources": [ "background.js", "kick_chat.js", "filter_host.json", "filter_pages.json" ],
+      "matches": [ "*://kick.com/*" ]
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "filter_host",
+        "enabled": true,
+        "path": "filter_host.json"
+      },
+      {
+        "id": "filter_pages",
+        "enabled": true,
+        "path": "filter_pages.json"
+      }
+    ]
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "webNavigation",
+    "declarativeNetRequest",
+    "scripting"
+  ]
+}

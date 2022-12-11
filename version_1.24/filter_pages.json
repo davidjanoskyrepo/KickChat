@@ -1,0 +1,78 @@
+[
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*.html",
+      "domains": [ "kick.com" ],
+      "resourceTypes": [ "script" ]
+    }
+  },
+
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*.htm",
+      "domains": [ "kick.com" ],
+      "resourceTypes": [ "script" ]
+    }
+  },
+
+  {
+    "id": 4,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/categories*",
+      "domains": [ "kick.com" ],
+      "resourceTypes": [ "script" ]
+    }
+  },
+
+  {
+    "id": 5,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/dashboard*",
+      "domains": [ "kick.com" ],
+      "resourceTypes": [ "script" ]
+    }
+  },
+
+  {
+    "id": 6,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/community-guidelines*",
+      "domains": [ "kick.com" ],
+      "resourceTypes": [ "script" ]
+    }
+  },
+
+  {
+    "id": 7,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/dmca-policy*",
+      "domains": [ "kick.com" ],
+      "resourceTypes": [ "script" ]
+    }
+  },
+
+  {
+    "id": 8,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/video*",
+      "domains": [ "kick.com" ],
+      "resourceTypes": [ "script" ]
+    }
+  }
+]
